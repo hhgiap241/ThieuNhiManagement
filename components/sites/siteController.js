@@ -15,5 +15,8 @@ class siteController{
     getDocumentationPage(req, res){
         res.render('sites/views/documentation')
     }
+    getNotificationPage(req, res){
+        res.render('sites/views/notification')
+    }
 }
 module.exports = new siteController()
